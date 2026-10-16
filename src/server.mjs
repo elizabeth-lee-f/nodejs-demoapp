@@ -141,7 +141,7 @@ app.use(function (err, req, res, next) {
     message: err.message,
     error: err,
   })
-})
+
 
 // Get values from env vars or defaults where not provided
 const port = process.env.PORT || 3000
